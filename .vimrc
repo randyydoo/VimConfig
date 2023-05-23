@@ -51,4 +51,12 @@ let g:ycm_extra_conf_vim_data = [
   \  'g:ycm_python_interpreter_path',
   \  'g:ycm_python_sys_path'
   \]
+  
 let g:ycm_global_ycm_extra_conf = '~/.global_extra_conf.py'
+"change cursor insert mode and make switch quicker
+let &t_SI = "\e[5 q"
+let &t_EI = "\e[2 q"
+
+set ttimeout
+set ttimeoutlen=1
+set ttyfast
