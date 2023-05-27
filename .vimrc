@@ -45,7 +45,7 @@ let g:ycm_extra_conf_vim_data = [
   \]
 let g:ycm_global_ycm_extra_conf = '~/.global_extra_conf.py'
 
-"change cursor insert mode and make switch quicker
+"change cursor insert mode and make switch quicker(use settings to change color of cursor)
 let &t_SI = "\e[5;37 q"
 let &t_EI = "\e[2 q"
 set ttimeout
