@@ -31,10 +31,16 @@ filetype indent on
 set backspace=indent,eol,start
 set encoding=utf-8
 
+" Disable signature help syntax highliting
+let g:ycm_signature_help_disable_syntax = 1
+
+
+" set autocomplete colors 
+hi Pmenu ctermfg=0 ctermbg=245 guifg=#000000 guibg=#dadada
+
 
 " set highlight search and '/' to clear highlight
 set hlsearch
-highlight Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000
 hi Search cterm = bold ctermfg=green ctermbg=lightgrey
 nnoremap / :noh<CR>/
 
