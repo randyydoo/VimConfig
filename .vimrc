@@ -60,4 +60,8 @@ set ttimeout
 set ttimeoutlen=1
 set ttyfast
 
+" add line numbers
+set number
+set numberwidth=1 
+highlight LineNr ctermfg=245 guibg=#dadada
 
